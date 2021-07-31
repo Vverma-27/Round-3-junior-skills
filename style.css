@@ -145,7 +145,7 @@ a:hover,
   position: fixed;
   top: 50vh;
   left: 5px;
-  background-color: #fff;
+  background-color: #000;
   width: 3.5vw;
   border-radius: 15px;
   transform: translateY(-50%);
