@@ -73,7 +73,7 @@ a {
   visibility: visible;
   position: absolute;
   top: 0;
-  border: 3px solid #000;
+  border: 3px solid #777;
   border-radius: 50%;
   height: 4rem;
   width: 4rem;
@@ -186,6 +186,18 @@ a:hover,
   /* color: #fff; */
 }
 
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 1.5rem;
+}
+::-webkit-scrollbar-track {
+  background: #079992;
+  box-shadow: 0 0 6px inset #000;
+}
+::-webkit-scrollbar-thumb {
+  background: #b8e994;
+  border-radius: 30px;
+}
 /* Responsive */
 @media only screen and (max-width: 768px) {
   html {
